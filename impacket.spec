@@ -1,4 +1,3 @@
-%include        /usr/lib/rpm/macros.python
 Summary:	Network protocols Constructors and Dissectors
 Summary(pl):	Konstruktory i analizatory dla protoko³ów sieciowych
 Name:		impacket
