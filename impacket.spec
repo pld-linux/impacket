@@ -9,7 +9,6 @@ Source0:	http://oss.coresecurity.com/repo/Impacket-%{version}.tar.gz
 # Source0-md5:	83e742d5c664ba91af78617123435dd1
 URL:		http://oss.coresecurity.com/projects/impacket.html
 BuildRequires:	python-devel >= 2.2.1
-BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
