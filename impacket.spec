@@ -1,5 +1,6 @@
 %include        /usr/lib/rpm/macros.python
 Summary:	Network protocols Constructors and Dissectors
+Summary(pl):	Konstruktory i analizatory dla protoko³ów sieciowych
 Name:		impacket
 Version:	0.9.4
 Release:	0.1
@@ -25,6 +26,20 @@ makes it simple to work with deep hierarchies of protocols.
 Impacket is most useful when used together with a packet capture
 utility or package such as Pcapy, an object oriented Python extension
 for capturing network packets.
+
+%description -l pl
+Impacket to zbiór klas Pythona do pracy z protoko³ami sieciowymi.
+Impacket w wiêkszo¶ci skupia siê na zapewnieniu niskopoziomowego
+dostêpu z poziomu programu do pakietów, chocia¿ niektóre protoko³y
+(jak na przyk³ad NMD i SMB) s± zaimplementowane na wy¿szym poziomie
+jako podstawa dla innych protoko³ów. Pakiety mog± byæ konstruowane od
+zera, a tak¿e z surowych danych, a obiektowo zorientowane API u³atwia
+pracê z g³êbokimi hierarchiami protoko³ów.
+
+Impacket jest najbardziej przydatny przy u¿ywaniu wraz z narzêdziem do
+przechwytywania pakietów lub pakietem takim jak Pcapy, który jest
+obiektowo zorientowanym rozszerzeniem Pythona do przechwytywania
+pakietów sieciowych.
 
 %prep
 %setup -q -n Impacket-%{version}
@@ -52,4 +67,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{py_sitedir}/impacket/dcerpc
 %{py_sitedir}/impacket/*.py[co]
 %{py_sitedir}/impacket/dcerpc/*.py[co]
-%{_examplesdir}/%{name}-%{version}/*
+%{_examplesdir}/%{name}-%{version}
