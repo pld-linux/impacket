@@ -1,5 +1,5 @@
 Summary:	Network protocols Constructors and Dissectors
-Summary(pl):	Konstruktory i analizatory dla protoko³ów sieciowych
+Summary(pl.UTF-8):   Konstruktory i analizatory dla protokoÅ‚Ã³w sieciowych
 Name:		impacket
 Version:	0.9.4
 Release:	0.1
@@ -25,19 +25,19 @@ Impacket is most useful when used together with a packet capture
 utility or package such as Pcapy, an object oriented Python extension
 for capturing network packets.
 
-%description -l pl
-Impacket to zbiór klas Pythona do pracy z protoko³ami sieciowymi.
-Impacket w wiêkszo¶ci skupia siê na zapewnieniu niskopoziomowego
-dostêpu z poziomu programu do pakietów, chocia¿ niektóre protoko³y
-(jak na przyk³ad NMD i SMB) s± zaimplementowane na wy¿szym poziomie
-jako podstawa dla innych protoko³ów. Pakiety mog± byæ konstruowane od
-zera, a tak¿e z surowych danych, a obiektowo zorientowane API u³atwia
-pracê z g³êbokimi hierarchiami protoko³ów.
+%description -l pl.UTF-8
+Impacket to zbiÃ³r klas Pythona do pracy z protokoÅ‚ami sieciowymi.
+Impacket w wiÄ™kszoÅ›ci skupia siÄ™ na zapewnieniu niskopoziomowego
+dostÄ™pu z poziomu programu do pakietÃ³w, chociaÅ¼ niektÃ³re protokoÅ‚y
+(jak na przykÅ‚ad NMD i SMB) sÄ… zaimplementowane na wyÅ¼szym poziomie
+jako podstawa dla innych protokoÅ‚Ã³w. Pakiety mogÄ… byÄ‡ konstruowane od
+zera, a takÅ¼e z surowych danych, a obiektowo zorientowane API uÅ‚atwia
+pracÄ™ z gÅ‚Ä™bokimi hierarchiami protokoÅ‚Ã³w.
 
-Impacket jest najbardziej przydatny przy u¿ywaniu wraz z narzêdziem do
-przechwytywania pakietów lub pakietem takim jak Pcapy, który jest
+Impacket jest najbardziej przydatny przy uÅ¼ywaniu wraz z narzÄ™dziem do
+przechwytywania pakietÃ³w lub pakietem takim jak Pcapy, ktÃ³ry jest
 obiektowo zorientowanym rozszerzeniem Pythona do przechwytywania
-pakietów sieciowych.
+pakietÃ³w sieciowych.
 
 %prep
 %setup -q -n Impacket-%{version}
