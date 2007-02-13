@@ -1,5 +1,5 @@
 Summary:	Network protocols Constructors and Dissectors
-Summary(pl.UTF-8):   Konstruktory i analizatory dla protokołów sieciowych
+Summary(pl.UTF-8):	Konstruktory i analizatory dla protokołów sieciowych
 Name:		impacket
 Version:	0.9.4
 Release:	0.1
